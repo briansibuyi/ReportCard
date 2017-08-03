@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/nav_save"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Save" />
+    <item
+        android:id="@+id/nav_update"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="Update" />
+    <item
+        android:id="@+id/nav_view"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="View" />
+    <item
+        android:id="@+id/nav_Delete"
+        android:icon="@drawable/ic_menu_send"
+        android:title="Delete" />
+
+</menu>
